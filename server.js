@@ -1,8 +1,8 @@
-var fs = require('fs');
-var path = require('path');
-var http = require('http');
-var io  = require('socket.io').listen(5001);
-var dl  = require('delivery');
+const fs = require('fs');
+const path = require('path');
+const http = require('http');
+const io  = require('socket.io').listen(5001);
+const dl  = require('delivery');
 
 
 // List all files inside a folder
