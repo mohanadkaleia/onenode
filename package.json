@@ -1,0 +1,34 @@
+{
+  "name": "onenode",
+  "version": "1.0.0",
+  "description": "Files sharing and syncing between devices based on nodejs ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohanadkaleia/onenode.git"
+  },
+  "keywords": [
+    "sync",
+    "share"
+  ],
+  "author": "Mohanad Shab Kaleia",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mohanadkaleia/onenode/issues"
+  },
+  "homepage": "https://github.com/mohanadkaleia/onenode#readme",
+  "dependencies": {
+    "chokidar": "^1.7.0",
+    "delivery": "0.0.6",
+    "node-datetime": "^2.0.0",
+    "public-ip": "^2.3.5",
+    "socket.io-client": "^2.0.3",
+    "sqlite3": "^3.1.8",
+    "websocket": "^1.0.24",
+    "winston": "^2.4.0",
+    "ws": "^3.2.0"
+  }
+}
