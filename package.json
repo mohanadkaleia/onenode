@@ -1,0 +1,28 @@
+{
+  "name": "onenode",
+  "version": "1.0.0",
+  "description": "A virtual shared storage space between devices using webrtc protocol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohanadkaleia/onenode.git"
+  },
+  "keywords": [
+    "p2p",
+    "file",
+    "sharing",
+    "rtc",
+    "nodejs",
+    "vue",
+    "electron"
+  ],
+  "author": "Mohanad Kaleia <ms.kaleia@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mohanadkaleia/onenode/issues"
+  },
+  "homepage": "https://github.com/mohanadkaleia/onenode#readme"
+}
