@@ -39,7 +39,7 @@ const argv = yargs
 
 var initiator = ('true' === argv.n);
 var peer_id = argv.peer_id;
-var peer = new Peer({ initiator: initiator, wrtc: wrtc });
+var peer = new Peer({ initiator: initiator, wrtc: wrtc, trickle: false });
 var signal_queue = [];
 
 
@@ -135,7 +135,6 @@ var sendSignal = function(peer_id) {
   if (!authorized || !connected) {
     return;
   }
-
   // Send all stored signals in the signal queus
   while (signal_queue.length > 0) {
     var signal = signal_queue.pop();

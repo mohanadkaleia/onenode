@@ -49,12 +49,18 @@ var handleMessage = function(message, connection, callback) {
           winston.info((new Date()) + ' device ' + connection.remoteAddress + ' sent a registeration message: ' + json_message.peer_id);
           // TODO: if the peer is allowed:
           if (true) {
+            // Send an authorization message
+            var authorized = {"type": 'authorized', "authorized":true, "status":"OK"};
+            connection.sendUTF(JSON.stringify(authorized));
             // Add the peer to the pool
-            addPeerToPool(json_message.peer_id, connection);
+            addPeerToPool(json_message.peer_id, connection, null);
+
+            // Forward all signals to the new peer          
+            collect_signal(json_message.peer_id, connection);
           }
 
           // Send acknowledgment message:
-          var aknowledgment = {"type": 'authorized', "authorized":true, "status":"OK"};
+          var aknowledgment = {"type": 'ack', "status":'OK'};
           callback(aknowledgment);
           break;
       case 'signal':
@@ -129,7 +135,7 @@ var broadcast_signal = function(peer_id, signal) {
 var collect_signal = function(peer_id, connection) {
   for (var i = 0; i < peers_pool.length; i++) {
     var peer = peers_pool[i];
-    if (peer.peer_id !== peer_id && peer !== undefined) {
+    if (peer.peer_id !== peer_id) {
       winston.info((new Date()) + ' Server sent signal data to ' + peer_id);
       var signal_message = {type: 'pair', source: peer.peer_id, destination: peer_id, data: peer.signal};
       connection.sendUTF(JSON.stringify(signal_message));
