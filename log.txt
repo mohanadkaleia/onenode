@@ -2747,3 +2747,521 @@
 {"level":"info","message":"Mon Feb 26 2018 12:12:52 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:12:52.867Z"}
 {"level":"info","message":"Mon Feb 26 2018 12:13:06 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T18:13:06.717Z"}
 {"level":"info","message":"Mon Feb 26 2018 12:13:09 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T18:13:09.880Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:28:12 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T18:28:12.031Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:28:19 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:28:19.030Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:28:19 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T18:28:19.047Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:28:19 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:28:19.048Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:28:19 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:28:19.177Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:28:19 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:28:19.177Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:28:24 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:28:24.294Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:28:24 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T18:28:24.307Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:28:24 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T18:28:24.307Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:28:24 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:28:24.307Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:29:17 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T18:29:17.119Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:29:21 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T18:29:21.298Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:29:27 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:29:27.967Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:29:27 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T18:29:27.983Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:29:27 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T18:29:27.983Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:29:27 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:29:27.983Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:29:33 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:29:33.544Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:29:33 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T18:29:33.558Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:29:33 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T18:29:33.558Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:29:33 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:29:33.558Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:29:33 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:29:33.694Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:29:33 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T18:29:33.694Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:29:33 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:29:33.694Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:29:33 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:29:33.705Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:29:33 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T18:29:33.705Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:29:33 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:29:33.706Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:29:46 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T18:29:46.587Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:29:51 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T18:29:51.218Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:30:25 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T18:30:25.759Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:30:55 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T18:30:55.988Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:31:03 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:31:03.640Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:31:03 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T18:31:03.655Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:31:03 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:31:03.657Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:31:03 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:31:03.787Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:31:03 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:31:03.787Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:00 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T18:32:00.710Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:01 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T18:32:01.184Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:01 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:32:01.224Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:01 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T18:32:01.238Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:01 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:32:01.241Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:01 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:32:01.370Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:01 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:32:01.371Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:07 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T18:32:07.856Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:07 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:32:07.893Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:07 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T18:32:07.906Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:07 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:32:07.909Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:08 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:32:08.040Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:08 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:32:08.041Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:40 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T18:32:40.942Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:40 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:32:40.984Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:41 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T18:32:41.003Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:41 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:32:41.008Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:41 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:32:41.131Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:41 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:32:41.132Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:52 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:32:52.380Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:52 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T18:32:52.392Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:52 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T18:32:52.392Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:32:52 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:32:52.392Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:33:50 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T18:33:50.106Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:33:50 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:33:50.157Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:33:50 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T18:33:50.170Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:33:50 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:33:50.174Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:33:50 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:33:50.303Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:33:50 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:33:50.303Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:18 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T18:34:18.773Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:18 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:34:18.828Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:18 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T18:34:18.841Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:18 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:34:18.846Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:18 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:34:18.975Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:18 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:34:18.976Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:19 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T18:34:19.476Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:19 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:34:19.558Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:19 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T18:34:19.578Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:19 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:34:19.584Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:19 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:34:19.704Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:19 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:34:19.704Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:30 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:34:30.163Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:30 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T18:34:30.173Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:30 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T18:34:30.174Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:30 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:34:30.174Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:44 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T18:34:44.349Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:44 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:34:44.430Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:44 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T18:34:44.446Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:44 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:34:44.451Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:44 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:34:44.513Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:44 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T18:34:44.524Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:44 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T18:34:44.525Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:44 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:34:44.525Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:44 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:34:44.574Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:44 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T18:34:44.575Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:44 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:34:44.575Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:44 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:34:44.588Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:44 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T18:34:44.589Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:44 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:34:44.589Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:55 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T18:34:55.616Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:34:59 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T18:34:59.766Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:35:03 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:35:03.853Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:35:03 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T18:35:03.863Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:35:03 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T18:35:03.863Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:35:03 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:35:03.863Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:35:04 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:35:04.004Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:35:15 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T18:35:15.965Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:35:19 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:35:19.966Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:35:19 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T18:35:19.982Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:35:19 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:35:19.985Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:35:20 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:35:20.113Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:35:20 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:35:20.113Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:35:24 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:35:24.627Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:35:24 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T18:35:24.636Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:35:24 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T18:35:24.638Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:35:24 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:35:24.639Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:11 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T18:37:11.273Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:15 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T18:37:15.575Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:21 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:37:21.142Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:21 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T18:37:21.152Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:21 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T18:37:21.152Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:21 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:37:21.152Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:25 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:37:25.093Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:25 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T18:37:25.104Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:25 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T18:37:25.104Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:25 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:37:25.105Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:25 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:37:25.336Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:25 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T18:37:25.336Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:25 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:37:25.337Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:25 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:37:25.348Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:25 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T18:37:25.349Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:25 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:37:25.349Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:42 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T18:37:42.339Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:42 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:37:42.356Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:42 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:37:42.366Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:42 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T18:37:42.378Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:42 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:37:42.381Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:42 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T18:37:42.384Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:42 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T18:37:42.384Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:42 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:37:42.386Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:42 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:37:42.511Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:42 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T18:37:42.512Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:42 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:37:42.512Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:42 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:37:42.526Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:42 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T18:37:42.527Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:37:42 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:37:42.527Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:38:04 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T18:38:04.781Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:38:04 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:38:04.847Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:38:04 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T18:38:04.864Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:38:04 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:38:04.868Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:38:04 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:38:04.994Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:38:04 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:38:04.997Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:38:09 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T18:38:09.766Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:38:09 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:38:09.819Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:38:09 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T18:38:09.837Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:38:09 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:38:09.844Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:38:09 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:38:09.871Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:38:09 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T18:38:09.881Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:38:09 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T18:38:09.881Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:38:09 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:38:09.884Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:38:09 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:38:09.965Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:38:09 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T18:38:09.965Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:38:09 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:38:09.966Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:38:09 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:38:09.983Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:38:09 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T18:38:09.984Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:38:09 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:38:09.984Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:39:11 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T18:39:11.766Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:39:11 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:39:11.952Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:39:11 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T18:39:11.970Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:39:11 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T18:39:11.984Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:39:11 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:39:11.989Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:39:11 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T18:39:11.991Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:39:11 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T18:39:11.992Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:39:11 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:39:11.993Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:39:12 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:39:12.097Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:39:12 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T18:39:12.097Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:39:12 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:39:12.098Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:39:12 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T18:39:12.116Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:39:12 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T18:39:12.116Z"}
+{"level":"info","message":"Mon Feb 26 2018 12:39:12 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T18:39:12.117Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:28:01 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T20:28:01.333Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:28:05 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:28:05.690Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:28:05 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T20:28:05.708Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:28:05 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:28:05.712Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:04 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:42:04.930Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:04 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T20:42:04.945Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:04 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T20:42:04.946Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:04 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:42:04.947Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:05 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T20:42:05.272Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:05 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T20:42:05.273Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:05 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:42:05.273Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:05 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T20:42:05.286Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:05 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T20:42:05.287Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:05 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:42:05.287Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:07 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T20:42:07.334Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:10 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T20:42:10.569Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:18 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T20:42:18.266Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:29 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:42:29.762Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:29 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T20:42:29.779Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:29 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:42:29.784Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:29 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T20:42:29.908Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:29 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:42:29.910Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:35 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:42:35.823Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:35 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T20:42:35.835Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:35 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T20:42:35.835Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:42:35 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:42:35.836Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:46:33 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T20:46:33.953Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:46:59 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T20:46:59.473Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:02 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:47:02.463Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:02 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T20:47:02.479Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:02 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:47:02.483Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:02 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T20:47:02.610Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:02 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:47:02.613Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:06 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:47:06.099Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:06 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T20:47:06.112Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:06 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T20:47:06.113Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:06 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:47:06.114Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:54 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T20:47:54.389Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:54 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:47:54.523Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:54 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T20:47:54.564Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:54 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:47:54.571Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:54 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:47:54.611Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:54 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T20:47:54.629Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:54 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T20:47:54.629Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:54 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:47:54.631Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:54 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T20:47:54.760Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:54 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T20:47:54.761Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:54 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:47:54.761Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:54 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T20:47:54.774Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:54 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T20:47:54.775Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:47:54 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:47:54.775Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:01 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T20:48:01.222Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:04 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:48:04.958Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:04 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T20:48:04.978Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:04 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:48:04.984Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:05 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T20:48:05.105Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:05 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:48:05.110Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:49 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T20:48:49.894Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:50 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T20:48:50.531Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:50 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:48:50.580Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:50 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T20:48:50.604Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:50 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:48:50.610Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:50 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:48:50.673Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:50 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T20:48:50.683Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:50 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T20:48:50.683Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:50 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:48:50.685Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:50 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T20:48:50.822Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:50 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T20:48:50.823Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:50 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:48:50.823Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:50 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T20:48:50.837Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:50 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T20:48:50.837Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:50 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:48:50.838Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:48:58 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T20:48:58.276Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:49:01 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:49:01.958Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:49:01 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T20:49:01.976Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:49:01 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:49:01.980Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:49:02 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T20:49:02.106Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:49:02 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:49:02.108Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:50:12 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T20:50:12.452Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:50:13 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T20:50:13.129Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:50:42 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T20:50:42.187Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:50:42 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:50:42.264Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:50:42 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T20:50:42.282Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:50:42 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:50:42.292Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:50:42 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T20:50:42.409Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:50:42 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:50:42.414Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:50:47 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T20:50:47.963Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:50:51 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:50:51.616Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:50:51 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T20:50:51.634Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:50:51 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:50:51.635Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:50:51 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T20:50:51.762Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:50:51 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:50:51.762Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:51:34 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:51:34.458Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:51:34 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T20:51:34.468Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:51:34 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T20:51:34.468Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:51:34 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:51:34.468Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:22 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T20:52:22.830Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:23 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:52:23.014Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:23 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:52:23.025Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:23 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T20:52:23.037Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:23 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:52:23.037Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:23 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T20:52:23.039Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:23 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T20:52:23.039Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:23 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:52:23.039Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:23 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T20:52:23.157Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:23 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T20:52:23.157Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:23 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:52:23.157Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:23 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T20:52:23.171Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:23 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T20:52:23.172Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:23 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:52:23.172Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:27 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T20:52:27.437Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:30 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T20:52:30.564Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:39 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:52:39.592Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:39 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T20:52:39.613Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:39 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T20:52:39.614Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:39 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:52:39.614Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:52:39 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T20:52:39.742Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:56:48 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T20:56:48.178Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:56:51 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:56:51.988Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:56:52 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T20:56:52.011Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:56:52 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:56:52.014Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:56:52 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T20:56:52.135Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:56:52 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:56:52.137Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:56:57 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:56:57.091Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:56:57 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T20:56:57.106Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:56:57 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T20:56:57.107Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:56:57 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:56:57.108Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:58:22 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T20:58:22.012Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:58:22 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:58:22.028Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:58:22 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T20:58:22.046Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:58:22 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:58:22.047Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:58:22 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T20:58:22.163Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:58:22 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:58:22.163Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:58:25 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T20:58:25.212Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:58:35 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T20:58:35.975Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:58:39 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:58:39.117Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:58:39 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T20:58:39.139Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:58:39 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:58:39.140Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:58:39 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T20:58:39.261Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:58:39 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:58:39.261Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:58:47 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T20:58:47.813Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:58:47 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T20:58:47.824Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:58:47 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T20:58:47.824Z"}
+{"level":"info","message":"Mon Feb 26 2018 14:58:47 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T20:58:47.825Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:38 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T21:02:38.059Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:38 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:02:38.261Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:38 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:02:38.274Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:38 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T21:02:38.281Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:38 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:02:38.281Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:38 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T21:02:38.295Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:38 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T21:02:38.295Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:38 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:02:38.296Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:38 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:02:38.403Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:38 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T21:02:38.403Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:38 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:02:38.404Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:38 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:02:38.420Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:38 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T21:02:38.420Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:38 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:02:38.421Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:45 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T21:02:45.872Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:55 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T21:02:55.335Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:58 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:02:58.106Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:58 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T21:02:58.125Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:58 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:02:58.126Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:58 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:02:58.254Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:02:58 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:02:58.255Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:03 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:03:03.478Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:03 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T21:03:03.490Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:03 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T21:03:03.490Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:03 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:03:03.490Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:39 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T21:03:39.455Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:39 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T21:03:39.460Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T21:03:40.085Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:03:40.154Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:03:40.169Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T21:03:40.180Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:03:40.180Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T21:03:40.182Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T21:03:40.183Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:03:40.183Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:03:40.191Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T21:03:40.192Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:03:40.192Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:03:40.195Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T21:03:40.195Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:03:40.195Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:03:40.201Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T21:03:40.201Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:03:40.202Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:03:40.213Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T21:03:40.213Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:03:40.217Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:03:40.218Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T21:03:40.218Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:03:40.219Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:03:40.231Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T21:03:40.231Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:40 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:03:40.231Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:45 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T21:03:45.388Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:48 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T21:03:48.442Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:56 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T21:03:56.755Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:59 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:03:59.638Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:59 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T21:03:59.663Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:59 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:03:59.665Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:59 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:03:59.674Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:59 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:03:59.675Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:59 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:03:59.676Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:59 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:03:59.676Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:59 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:03:59.716Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:59 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:03:59.717Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:59 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:03:59.732Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:59 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:03:59.732Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:59 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:03:59.742Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:03:59 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:03:59.742Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:04:08 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:04:08.381Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:04:08 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T21:04:08.392Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:04:08 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T21:04:08.393Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:04:08 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:04:08.393Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:04:23 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T21:04:23.042Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:02 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T21:05:02.747Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:05 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:05:05.678Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:05 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T21:05:05.696Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:05 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:05:05.697Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:05 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:05:05.825Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:05 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:05:05.826Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:11 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:05:11.379Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:11 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T21:05:11.388Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:11 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T21:05:11.389Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:11 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:05:11.389Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:52 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T21:05:52.281Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:52 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:05:52.339Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:52 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T21:05:52.359Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:52 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:05:52.360Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:52 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:05:52.404Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:52 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T21:05:52.414Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:52 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T21:05:52.414Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:52 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:05:52.414Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:52 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:05:52.554Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:52 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T21:05:52.555Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:52 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:05:52.555Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:52 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:05:52.568Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:52 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T21:05:52.568Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:05:52 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:05:52.571Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:07:41 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T21:07:41.160Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:07:44 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T21:07:44.155Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:07:52 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T21:07:52.457Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:07:57 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:07:57.787Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:07:57 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T21:07:57.804Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:07:57 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:07:57.805Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:07:57 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:07:57.934Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:07:57 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:07:57.936Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:08:21 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:08:21.780Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:08:21 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T21:08:21.790Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:08:21 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T21:08:21.790Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:08:21 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:08:21.791Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:09:48 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T21:09:48.041Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:11:52 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T21:11:52.295Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:14:41 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T21:14:41.792Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:14:41 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:14:41.830Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:14:41 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T21:14:41.844Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:14:41 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:14:41.846Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:14:41 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:14:41.977Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:14:41 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:14:41.978Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:15:47 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T21:15:47.386Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:15:47 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:15:47.557Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:15:47 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T21:15:47.576Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:15:47 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:15:47.578Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:15:47 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:15:47.704Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:15:47 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:15:47.706Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:16:39 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T21:16:39.390Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:17:02 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T21:17:02.868Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:17:06 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:17:06.967Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:17:06 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T21:17:06.983Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:17:06 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:17:06.985Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:17:07 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:17:07.118Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:17:07 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:17:07.118Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:17:21 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:17:21.692Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:17:21 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T21:17:21.704Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:17:21 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T21:17:21.704Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:17:21 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:17:21.705Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:17:21 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:17:21.725Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:17:21 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T21:17:21.725Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:17:21 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:17:21.725Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:11 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T21:18:11.326Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:11 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T21:18:11.330Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:11 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T21:18:11.974Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:12 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:18:12.065Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:12 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T21:18:12.087Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:12 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:18:12.088Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:20 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T21:18:20.747Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:20 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:18:20.763Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:20 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T21:18:20.782Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:20 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:18:20.784Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:20 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:18:20.820Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:20 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T21:18:20.835Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:20 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T21:18:20.836Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:20 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:18:20.838Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:20 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:18:20.968Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:20 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T21:18:20.970Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:20 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:18:20.970Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:20 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:18:20.984Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:20 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T21:18:20.985Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:20 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:18:20.988Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:43 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T21:18:43.399Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:43 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T21:18:43.873Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:43 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:18:43.929Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:43 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T21:18:43.943Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:43 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:18:43.950Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:44 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:18:44.075Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:44 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:18:44.075Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:18:59 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T21:18:59.996Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:00 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:19:00.068Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:00 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T21:19:00.085Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:00 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:19:00.087Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:00 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:19:00.214Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:00 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:19:00.214Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:05 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T21:19:05.560Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:05 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:19:05.614Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:05 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T21:19:05.627Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:05 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:19:05.630Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:05 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:19:05.762Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:05 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:19:05.763Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:07 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T21:19:07.526Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:07 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:19:07.677Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:07 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T21:19:07.691Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:07 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:19:07.694Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:07 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:19:07.821Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:07 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:19:07.824Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:25 GMT-0600 (CST) Server is listening on port 9001","timestamp":"2018-02-26T21:19:25.974Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:31 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:19:31.581Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:31 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer2","timestamp":"2018-02-26T21:19:31.600Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:31 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:19:31.601Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:43 GMT-0600 (CST) Connection from origin ::ffff:127.0.0.1 is accepted!","timestamp":"2018-02-26T21:19:43.902Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:43 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a registeration message: peer1","timestamp":"2018-02-26T21:19:43.917Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:43 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T21:19:43.917Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:43 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:19:43.917Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:44 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:19:44.051Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:44 GMT-0600 (CST) Server sent signal data to peer2","timestamp":"2018-02-26T21:19:44.052Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:44 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:19:44.052Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:44 GMT-0600 (CST) device ::ffff:127.0.0.1 sent a signal message.","timestamp":"2018-02-26T21:19:44.064Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:44 GMT-0600 (CST) Server sent signal data to peer1","timestamp":"2018-02-26T21:19:44.066Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:19:44 GMT-0600 (CST) Server sent acknowledgment message to ::ffff:127.0.0.1","timestamp":"2018-02-26T21:19:44.067Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:20:17 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T21:20:17.350Z"}
+{"level":"info","message":"Mon Feb 26 2018 15:20:22 GMT-0600 (CST) station ::ffff:127.0.0.1 disconnected.","timestamp":"2018-02-26T21:20:22.109Z"}
