@@ -20,7 +20,6 @@
     "electron"
   ],
   "author": "Mohanad Kaleia <ms.kaleia@gmail.com>",
-
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/mohanadkaleia/onenode/issues"
@@ -31,9 +30,12 @@
     "delivery": "0.0.6",
     "node-datetime": "^2.0.0",
     "public-ip": "^2.3.5",
+    "simple-peer": "^9.0.0",
     "socket.io-client": "^2.0.3",
     "websocket": "^1.0.24",
     "winston": "^2.4.0",
-    "ws": "^3.2.0"
+    "wrtc": "0.0.67",
+    "ws": "^3.2.0",
+    "yargs": "^11.0.0"
   }
 }
