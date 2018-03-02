@@ -1,7 +1,7 @@
 <template>
   <tr class="device-item">
     <td @click="strike">{{ name }}</td>
-    <td><button type="button" class="btn btn-warning btn-sm">Delete</button></td>
+    <td><i class="fas fa-trash-alt delete"></i></td>
     <td>
       <span v-if="status" class="badge badge-success">on</span>
       <span v-else class="badge badge-secondary">off</span>
@@ -14,7 +14,7 @@
       props: ['name', 'status'],
       data () {
         return {
-          
+
         }
       },
       methods: {
@@ -43,4 +43,11 @@
   .device-item td:hover {
     /*background-color: rgba(215, 213, 215, 0.3);*/
   }
+
+  .device-item .delete {
+    font-size: 16px;
+    color: #EC5f67;
+  }
+
+  
 </style>
