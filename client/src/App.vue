@@ -2,11 +2,8 @@
   <div id="app">
     <div class="container-fluid fill no-padding">
       <div class="row no-gutters fill">
-        <div class="col-sm-12 col-md-3 sidebar">
-          {{msg}}
-          {{posts.title}}
-          {{posts.description}}
-          <logo></logo>
+        <div class="col-sm-12 col-md-3 sidebar" style="background-color: white">
+          {{posts}}
           <sidebar></sidebar>
         </div>
         <div class="col-sm-12 col-md-9 file-explorer">
@@ -31,14 +28,20 @@
       }
     },
     mounted () {
+      console.log('Hey there its mounted function');
       this.getPosts()
+
     },
     methods: {
-      async getPosts() {
-        const response = PostService.fetchPosts()
-        console.log(response);
-        console.log('hi');
-        this.posts = response.data
+       getPosts () {
+        PostService.fetchPosts((response, error) => {
+          if (response) {
+            this.posts = response.data
+          } else {
+            console.log(error);
+          }
+        })
+
       }
     }
   }

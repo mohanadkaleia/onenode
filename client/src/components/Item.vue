@@ -12,10 +12,11 @@
     props: ['name', 'status'],
     data () {
       return {
-        name
+        
       }
     },
-    computed () {
+    computed: {
+      // Computed functions go here
     }
   }
 </script>
