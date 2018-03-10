@@ -3,6 +3,9 @@
     <div class="container-fluid fill no-padding">
       <div class="row no-gutters fill">
         <div class="col-sm-12 col-md-3 sidebar">
+          {{msg}}
+          {{posts.title}}
+          {{posts.description}}
           <logo></logo>
           <sidebar></sidebar>
         </div>
@@ -17,13 +20,25 @@
 <script>
   import Sidebar from './components/Sidebar.vue'
   import Explorer from './components/Explorer.vue'
+  import PostService from './services/PostService'
 
   export default {
     components: { Sidebar, Explorer },
     name: 'app',
     data () {
       return {
-        msg: 'Welcome to O1node'
+        posts: []
+      }
+    },
+    mounted () {
+      this.getPosts()
+    },
+    methods: {
+      async getPosts() {
+        const response = PostService.fetchPosts()
+        console.log(response);
+        console.log('hi');
+        this.posts = response.data
       }
     }
   }
