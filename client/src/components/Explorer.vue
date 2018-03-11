@@ -3,7 +3,8 @@
     <div id="explorer" class="container-fluid">
       <div class="row">
         <div v-for="file in files" class="col">
-          <item v-bind:name='file.name' v-bind:status='file.status'></item>
+          <!-- <item v-bind:name='file.name' v-bind:status='file.status'></item> -->
+          <item v-bind:name='file.name' status='online'></item>
           {{file.name}}
         </div>
       </div>
@@ -12,19 +13,31 @@
 </template>
 
 <script>
+import FilesManagement_service from '../services/FilesManagement_service'
 import Item from './Item.vue'
 export default {
   components: { Item },
   data () {
     return {
-      files: [{name: 'Document', status: 'online', type:'file'},
-              {name: 'Pictures', status: 'offline', type:'video'},
-              {name: 'Videos', status: 'local', type:'picture'},
-              {name: 'Music', status: 'local', type:'music'},
-              {name: 'Document', status: 'online', type:'file'},
-              {name: 'Pictures', status: 'offline', type:'video'},
-              {name: 'Videos', status: 'local', type:'picture'}
-            ]
+      files: []
+    }
+  },
+  mounted () {
+    // TODO: Check for update
+
+    // Get all files inside a folder upon loading the application
+    this.getFiles()
+  },
+  methods: {
+     getFiles () {
+      FilesManagement_service.listFiles((response, error) => {
+        if (response) {
+          this.files = response.data
+        } else {
+          console.log(error);
+        }
+      })
+
     }
   }
 }

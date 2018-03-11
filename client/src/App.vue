@@ -3,7 +3,6 @@
     <div class="container-fluid fill no-padding">
       <div class="row no-gutters fill">
         <div class="col-sm-12 col-md-3 sidebar" style="background-color: white">
-          {{files}}
           <sidebar></sidebar>
         </div>
         <div class="col-sm-12 col-md-9 file-explorer">
@@ -30,22 +29,9 @@
     mounted () {
       // TODO: Check for update
 
-      // Get all files inside a folder upon loading the application
-      this.getFiles()
-
-
     },
     methods: {
-       getFiles () {
-        FilesManagement_service.listFiles((response, error) => {
-          if (response) {
-            this.files = response.data
-          } else {
-            console.log(error);
-          }
-        })
-
-      }
+       
     }
   }
 </script>
