@@ -7,6 +7,7 @@ var file_list = []
 
 // This function returns files and folder inside a directory
 var listFiles = function (directory, callback) {
+  file_list = []
   fs.readdir(directory, (err, files) => {
     file_counter = 0;
     files.forEach(file => {
@@ -15,7 +16,6 @@ var listFiles = function (directory, callback) {
         file_counter++;
         if (file_counter === files.length) {
           // TODO return file list in a callback as an API output
-          console.log(file_list);
           callback(file_list);
         }
       });
@@ -52,5 +52,9 @@ var getFileType = function(filename) {
   return file_information
 }
 
+
+module.exports = {
+    listFiles: listFiles
+}
 // For test
 // listFiles(testFolder, function(files) {});

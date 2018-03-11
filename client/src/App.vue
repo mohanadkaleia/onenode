@@ -3,7 +3,7 @@
     <div class="container-fluid fill no-padding">
       <div class="row no-gutters fill">
         <div class="col-sm-12 col-md-3 sidebar" style="background-color: white">
-          {{posts}}
+          {{files}}
           <sidebar></sidebar>
         </div>
         <div class="col-sm-12 col-md-9 file-explorer">
@@ -17,26 +17,29 @@
 <script>
   import Sidebar from './components/Sidebar.vue'
   import Explorer from './components/Explorer.vue'
-  import PostService from './services/PostService'
+  import FilesManagement_service from './services/FilesManagement_service'
 
   export default {
     components: { Sidebar, Explorer },
     name: 'app',
     data () {
       return {
-        posts: []
+        files: []
       }
     },
     mounted () {
-      console.log('Hey there its mounted function');
-      this.getPosts()
+      // TODO: Check for update
+
+      // Get all files inside a folder upon loading the application
+      this.getFiles()
+
 
     },
     methods: {
-       getPosts () {
-        PostService.fetchPosts((response, error) => {
+       getFiles () {
+        FilesManagement_service.listFiles((response, error) => {
           if (response) {
-            this.posts = response.data
+            this.files = response.data
           } else {
             console.log(error);
           }
