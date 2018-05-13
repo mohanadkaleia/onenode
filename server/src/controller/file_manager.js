@@ -1,9 +1,12 @@
 const chokidar = require('chokidar');
 const path_module = require('path');
 const datetime = require('node-datetime');
+const events = require('events');
+const eventEmitter = new events.EventEmitter();
+
+// Define the files path
 const data_path = 'tmp/';
 
-var
 
 
 // Initialize watcher.
@@ -20,7 +23,9 @@ var watcher = chokidar.watch(data_path, {
 
 // Add event listeners.
 watcher
-  .on('add', path => console.log(`File ${path} has been added`))
+  .on('add', path => {
+    console.log(`File ${path} has been added`)
+  })
   .on('change', path => console.log(`File ${path} has been changed`))
   .on('unlink', path => console.log(`File ${path} has been removed`))
   .on('addDir', path => console.log(`Directory ${path} has been added`))

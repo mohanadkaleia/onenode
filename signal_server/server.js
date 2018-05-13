@@ -1,7 +1,6 @@
 const path = require('path');
 const http = require('http');
 const WebSocketServer = require('websocket').server;
-const io = require('socket.io').listen(5001);
 const dl = require('delivery');
 const publicIp = require('public-ip');
 const winston = require('winston');
@@ -55,7 +54,7 @@ var handleMessage = function(message, connection, callback) {
             // Add the peer to the pool
             addPeerToPool(json_message.peer_id, connection, null);
 
-            // Forward all signals to the new peer          
+            // Forward all signals to the new peer
             collect_signal(json_message.peer_id, connection);
           }
 
@@ -113,11 +112,6 @@ wsServer.on('request', function (request) {
         winston.info((new Date()) + ' station ' + connection.remoteAddress + ' disconnected.');
     });
 });
-
-var sendMessage = function(message) {
-  wsServer.send('acknowledgment');
-}
-
 
 var broadcast_signal = function(peer_id, signal) {
     // Broadcase the signal to all peers in the pool that are different than the current peer_id
