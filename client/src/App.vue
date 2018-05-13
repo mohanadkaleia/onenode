@@ -2,7 +2,7 @@
   <div id="app">
     <div class="container-fluid fill no-padding">
       <div class="row no-gutters fill">
-        <div class="col-sm-12 col-md-3 sidebar" style="background-color: white">
+        <div class="col-sm-12 col-md-3 sidebar">
           <sidebar></sidebar>
         </div>
         <div class="col-sm-12 col-md-9 file-explorer">
@@ -31,7 +31,7 @@
 
     },
     methods: {
-       
+
     }
   }
 </script>
