@@ -1,8 +1,6 @@
 // This file is client side application, that is responsible to send/sync files to the server
-const fs = require('fs');
-const path = require('path');
-const http = require('http');
-const WebSocket = require('ws');
+// const WebSocket = require('ws');
+import io from 'socket.io-client';
 const events = require('events');
 const eventEmitter = new events.EventEmitter();
 const url = 'ws://127.0.0.1:9001';
@@ -10,7 +8,8 @@ const url = 'ws://127.0.0.1:9001';
 var files = []
 
 
-var socket = new WebSocket(url);
+// var socket = new WebSocket(url);
+const socket = io.connect(url);
 
 var onClose = function () {
     connected = false;
@@ -73,37 +72,37 @@ var handleMessage = function(message) {
   }
 }
 
-peer.on('signal', function (data) {
-  signal_queue.push(data);
-  sendSignal(peer_id);
-});
+// peer.on('signal', function (data) {
+//   signal_queue.push(data);
+//   sendSignal(peer_id);
+// });
 
-var sendSignal = function(peer_id) {
-  // Make sure the socket connection is established
-  if (!authorized || !connected) {
-    return;
-  }
-  // Send all stored signals in the signal queus
-  while (signal_queue.length > 0) {
-    var signal = signal_queue.pop();
-    var message = {peer_id:peer_id, type: 'signal', data: signal};
-    // Send the data to the server over socket
-    socket.send(JSON.stringify(message));
-  }
-}
+// var sendSignal = function(peer_id) {
+//   // Make sure the socket connection is established
+//   if (!authorized || !connected) {
+//     return;
+//   }
+//   // Send all stored signals in the signal queus
+//   while (signal_queue.length > 0) {
+//     var signal = signal_queue.pop();
+//     var message = {peer_id:peer_id, type: 'signal', data: signal};
+//     // Send the data to the server over socket
+//     socket.send(JSON.stringify(message));
+//   }
+// }
 
-peer.on('error', function (err) {
-  winston.info((new Date()) + ' Error ' + err);
-})
+// // peer.on('error', function (err) {
+// //   winston.info((new Date()) + ' Error ' + err);
+// // })
 
-peer.on('connect', function () {
-  // wait for 'connect' event before using the data channel
-  winston.info((new Date()) + ' Pairing success!');
-  peer.send('hey peer2, how is it going?');
-})
-//
-peer.on('data', function (data) {
-  // got a data channel message
-  winston.info((new Date()) + ' Recevied data');
-  console.log('got a message from peer1: ' + data)
-})
+// // peer.on('connect', function () {
+// //   // wait for 'connect' event before using the data channel
+// //   winston.info((new Date()) + ' Pairing success!');
+// //   peer.send('hey peer2, how is it going?');
+// // })
+// // //
+// // peer.on('data', function (data) {
+// //   // got a data channel message
+// //   winston.info((new Date()) + ' Recevied data');
+// //   console.log('got a message from peer1: ' + data)
+// // })

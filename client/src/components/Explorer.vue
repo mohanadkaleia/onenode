@@ -2,7 +2,7 @@
   <div>
     <div id="explorer" class="container-fluid">
       <div class="row">
-        <div v-for="file in files" class="col">
+        <div v-for="file in files" :key="file.name" class="col">
           <!-- <item v-bind:name='file.name' v-bind:status='file.status'></item> -->
           <item v-bind:name='file.name' status='online'></item>
           {{file.name}}

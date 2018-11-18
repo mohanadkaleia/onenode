@@ -19,7 +19,8 @@
   import FilesManagement_service from './services/FilesManagement_service'
 
   export default {
-    components: { Sidebar, Explorer },
+    components: { Sidebar },
+    // components: { Sidebar, Explorer },
     name: 'app',
     data () {
       return {
