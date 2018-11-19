@@ -9,6 +9,7 @@ const data_path = 'data/';
 
 
 
+
 // Initialize watcher.
 var watcher = chokidar.watch(data_path, {
   ignored: /(^|[\/\\])\../,

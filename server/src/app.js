@@ -31,6 +31,7 @@ app.listen(process.env.PORT || 8081)
 var server = app.listen(socket, function (request, response) {
     // winston.info((new Date()) + ' Received request for  ' + request.url);
     winston.info((new Date()) + ' Server is listening on port ' + socket);
+
     // response.writeHead(404);
     // response.end();
 });
@@ -38,6 +39,8 @@ var server = app.listen(socket, function (request, response) {
 // server.listen(socket, function () {
 //     winston.info((new Date()) + ' Server is listening on port ' + socket);
 // });
+
+
 
 var wsServer = new WebSocketServer({
     httpServer: server,
