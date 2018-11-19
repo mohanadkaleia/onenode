@@ -5,7 +5,8 @@ const events = require('events');
 const eventEmitter = new events.EventEmitter();
 
 // Define the files path
-const data_path = 'tmp/';
+const data_path = 'data/';
+
 
 
 
