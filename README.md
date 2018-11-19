@@ -1,4 +1,5 @@
 # ONE-NO-DE
+[![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 Heyo 👋 
 One-node is an open source project that supports syncing files between devices without the need to have a central storage space (like in dropbox). One-node uses web-rtc so devices can see each other on the web and send/receive files. 
