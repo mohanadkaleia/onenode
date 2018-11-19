@@ -43,4 +43,4 @@ License
 ----
 
 MIT (I have no idea what MIT means, but seems good 😂)
->>>>>>> master
+
