@@ -19,24 +19,22 @@ The app is still in progress, it has the following dependecies:
 
 One-node requires [Node.js](https://nodejs.org/) v4+ to run. Remember we said the project has three parts, so you have to install dependecies for three projects (I know it sucks now but will change it to only one package.json later)
 
-#### Client side: 
+#### Install dependencies: 
 ```sh
-cd client
 npm install
-npm run dev
 ```
-#### Backedn side: 
+#### Run the Backed server: 
 ```sh
-cd server
-npm install
-cd src
-node app.js
+npm run server
 ```
 #### Signalling server:
 ```sh
-npm install
-cd signal_server
-node server.js
+npm run signal
+```
+
+#### Run client:
+```sh
+npm run client
 ```
 
 # NOTE:

@@ -8,7 +8,7 @@
     "build": "cross-env NODE_ENV=production webpack --config ./client/webpack.config.js --progress --hide-modules",
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node ./server/src/app.js",
-    "signalling": "node ./signal_server/server.js"
+    "signal": "node ./signal_server/server.js"
   },
   "repository": {
     "type": "git",
