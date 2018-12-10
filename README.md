@@ -35,6 +35,7 @@ node app.js
 #### Signalling server:
 ```sh
 npm install
+cd signal_server
 node server.js
 ```
 
