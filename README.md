@@ -23,18 +23,19 @@ One-node requires [Node.js](https://nodejs.org/) v4+ to run. Remember we said th
 ```sh
 cd client
 npm install
-npm dev run
+npm run dev
 ```
 #### Backedn side: 
 ```sh
 cd server
 npm install
+cd src
 node app.js
 ```
 #### Signalling server:
 ```sh
 npm install
-node app.js
+node server.js
 ```
 
 # NOTE:
