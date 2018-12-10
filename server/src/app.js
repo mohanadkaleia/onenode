@@ -6,7 +6,7 @@ const api = require('./controller/api')
 const http = require('http');
 const WebSocketServer = require('websocket').server;
 const winston = require('winston');
-const socket = 9001;
+const socket = 9000;
 const app = express()
 
 app.use(morgan('combined'))

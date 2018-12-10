@@ -14,7 +14,8 @@
 
 <script>
 import FilesManagement_service from '../services/FilesManagement_service'
-import File_manager from '../controller/File_manager'
+// Note I can't remember why this controller does not exist anymore!
+// import File_manager from '../controller/File_manager'
 import Item from './Item.vue'
 export default {
   components: { Item },
