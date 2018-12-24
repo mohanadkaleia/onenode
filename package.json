@@ -51,7 +51,8 @@
     "file-type": "^7.6.0",
     "morgan": "^1.9.1",
     "path": "^0.12.7",
-    "read-chunk": "^2.1.0"
+    "read-chunk": "^2.1.0",
+    "tree-model": "^1.0.7"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

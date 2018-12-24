@@ -60,3 +60,5 @@ typings/
 server/tmp/*
 
 *.txt
+
+.vscode
