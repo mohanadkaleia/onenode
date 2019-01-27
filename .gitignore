@@ -56,9 +56,11 @@ typings/
 
 # dotenv environment variables file
 .env
+venv
 
 server/tmp/*
 
 *.txt
 
 .vscode
+
