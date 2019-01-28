@@ -3,7 +3,7 @@
   "connection": {
     "user": "root",
     "host": "localhost",
-    "password": "c0mput3ch"
+    "password": "123456"
   },
   "schema": {
     "name": "onenode"
