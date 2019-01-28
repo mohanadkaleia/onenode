@@ -1,0 +1,11 @@
+{
+  "client": "mysql",
+  "connection": {
+    "user": "root",
+    "host": "localhost",
+    "password": "c0mput3ch"
+  },
+  "schema": {
+    "name": "onenode"
+  }
+}
