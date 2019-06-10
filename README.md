@@ -27,7 +27,7 @@ npm install
 #### Run the migrations: 
 Well, in order to run the migration, you would need to change the configruations in the config.json. You should have a database schema named as `onenode`, then run the following command.
 ```sh
-node /server/migrations/migrate.js
+node /tools/migrations/migrate.js
 ```
 
 
