@@ -1,7 +1,6 @@
 {
   "evn": "development",
   "node_port": 3000,
-  "database": "my-app-db-dev",
   "db": {
     "client": "mysql",
     "connection": {
