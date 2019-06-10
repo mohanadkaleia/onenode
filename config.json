@@ -1,22 +1,16 @@
 {
-    "development": {
-        "evn": "development",
-        "root_dir": "/data/",
-        "node_port": 3000,
-        "database": "my-app-db-dev"
+  "evn": "development",
+  "node_port": 3000,
+  "database": "my-app-db-dev",
+  "db": {
+    "client": "mysql",
+    "connection": {
+      "user": "root",
+      "host": "localhost",
+      "password": "123456"
     },
-    "testing": {
-        "evn": "testing",
-        "database": "my-app-db-test"
-    },
-    "staging": {
-        "evn": "staging",
-        "node_port": 8080,
-        "database": "my-app-db-stag"
-    },
-    "production": {
-        "evn": "production",
-        "node_port": 8080,
-        "database": "my-app-db-prod"
+    "schema": {
+      "name": "onenode"
     }
+  }
 }

@@ -1,17 +1,11 @@
 "use strict";
-const config = require("./config.json");
+const config = require("config.json");
 const mysql = require("mysql");
 const fs = require("fs");
 const path = require("path");
 const dir = "server/migrations/";
 const logger = require("winston");
-
-const connection = mysql.createConnection({
-  host: config.connection.host,
-  user: config.connection.user,
-  password: config.connection.password,
-  database: config.schema.name
-});
+const db = require("db");
 
 let migration_schema = `
     CREATE TABLE migrations
@@ -20,20 +14,6 @@ let migration_schema = `
         name text,
         created timestamp
     );`;
-
-connection.connect(function(err) {
-  if (!err) {
-    logger.info("Database is connected 😆");
-    apply_migrations(function(result) {
-      if (result) {
-        logger.info("Finished migrating.. 😆");
-        close_connection();
-      }
-    });
-  } else {
-    logger.info("Unable to connect... ☹️");
-  }
-});
 
 function apply_migrations(callback) {
   let migrations = [];
