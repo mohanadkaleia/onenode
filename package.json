@@ -4,8 +4,8 @@
   "description": "A virtual shared storage space between devices using webrtc protocol",
   "main": "index.js",
   "scripts": {
-    "client": "cross-env NODE_ENV=development webpack-dev-server --config ./client/webpack.config.js --open --hot",
-    "build": "cross-env NODE_ENV=production webpack --config ./client/webpack.config.js --progress --hide-modules",
+    "client": "cross-env NODE_ENV=development webpack-dev-server --config ./ui/webpack.config.js --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --config ./ui/webpack.config.js --progress --hide-modules",
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node ./server/app.js",
     "signal": "node ./signal_server/server.js"

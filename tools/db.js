@@ -27,18 +27,4 @@ function close_connection() {
   con.end();
 }
 
-// con.connect(function(err) {
-//   if (!err) {
-//     logger.info("Database is connected 😆");
-//     apply_migrations(function(result) {
-//       if (result) {
-//         logger.info("Finished migrating.. 😆");
-//         close_connection();
-//       }
-//     });
-//   } else {
-//     logger.info("Unable to connect... ☹️");
-//   }
-// });
-
 exports.execute = execute;

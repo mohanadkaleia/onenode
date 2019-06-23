@@ -3,10 +3,9 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const morgan = require("morgan");
 const api = require("./controllers/api");
-const http = require("http");
 const WebSocketServer = require("websocket").server;
 const winston = require("winston");
-const socket = 9000;
+const SOCKET = 9000;
 const app = express();
 
 app.use(morgan("combined"));
@@ -17,8 +16,9 @@ app.get("/", (req, res) => {
   res.send("Hey Mohanad!2");
 });
 
-app.get("/file/list", (req, res) => {
-  api.listFiles("tmp/", response => {
+app.get("/file/git/", (req, res) => {
+  console.log("hello");
+  api.listFiles("data/", response => {
     res.send(response);
   });
 });
@@ -27,17 +27,13 @@ console.log("Node Express Web server is listening on port 8081");
 app.listen(process.env.PORT || 8081);
 
 // Socket Server
-var server = app.listen(socket, function(request, response) {
+var server = app.listen(SOCKET, function(request, response) {
   // winston.info((new Date()) + ' Received request for  ' + request.url);
-  winston.info(new Date() + " Server is listening on port " + socket);
+  winston.info(new Date() + " Server is listening on port " + SOCKET);
 
   // response.writeHead(404);
   // response.end();
 });
-
-// server.listen(socket, function () {
-//     winston.info((new Date()) + ' Server is listening on port ' + socket);
-// });
 
 var wsServer = new WebSocketServer({
   httpServer: server,
@@ -61,7 +57,7 @@ wsServer.on("request", function(request) {
 
   connection = request.accept(null, request.origin);
 
-  // Semd list of files inside the target directory
+  // List of files inside the target directory
   const list_of_files = api.listFiles("tmp/", response => {
     var message = { type: "content", body: response };
     connection.sendUTF(JSON.stringify(message));
