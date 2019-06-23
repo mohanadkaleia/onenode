@@ -6,7 +6,7 @@
     "connection": {
       "user": "root",
       "host": "localhost",
-      "password": "123456"
+      "password": "qwerty123456"
     },
     "schema": {
       "name": "onenode"

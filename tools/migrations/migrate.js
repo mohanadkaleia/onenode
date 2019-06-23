@@ -64,9 +64,10 @@ function get_db_migrations(callback) {
           callback([]);
         }
       });
+    } else {
+      let commited_migrations = rows.map(a => a.name);
+      callback(commited_migrations);
     }
-    let commited_migrations = rows.map(a => a.name);
-    callback(commited_migrations);
   });
 }
 

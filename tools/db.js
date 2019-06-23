@@ -3,7 +3,7 @@
 const config = require("../config.json");
 const mysql = require("mysql");
 
-const con = mysql.createConnection({
+const con = mysql.createPool({
   host: config.db.connection.host,
   user: config.db.connection.user,
   password: config.db.connection.password,
@@ -11,20 +11,11 @@ const con = mysql.createConnection({
 });
 
 function execute(sql, param = null, callback, error) {
-  con.connect(function(err) {
-    if (err) {
-      throw err;
-    }
-    con.query(sql, param, function(err, result, fields) {
-      if (err) error(err);
-      close_connection();
-      callback(result);
-    });
+  con.query(sql, param, function(err, result, fields) {
+    // close_connection();
+    if (err) error(err);
+    callback(result);
   });
-}
-
-function close_connection() {
-  con.end();
 }
 
 exports.execute = execute;
