@@ -48,4 +48,4 @@ async function rollback(conn) {
 exports.execute = execute;
 exports.commit = commit;
 exports.create_connection = create_connection;
-exports.rollbakc = rollback;
+exports.rollback = rollback;
