@@ -8,6 +8,9 @@ SET FOREIGN_KEY_CHECKS=1;
 CREATE TABLE `node` 
 (
 	`id` INT NOT NULL AUTO_INCREMENT,
+	`created` timestamp DEFAULT CURRENT_TIMESTAMP,
+	`modified` timestamp,
+	`deleted` timestamp,
 	`name` text,
 	`user_id` int,
     PRIMARY KEY (`id`)
@@ -17,24 +20,25 @@ CREATE TABLE `node`
 CREATE TABLE `file` 
 (
 	`id` INT NOT NULL AUTO_INCREMENT,
-	`node_id` int,
-	`path` text,
-	`created` timestamp,
+	`created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
 	`modified` timestamp,
-	`synced` timestamp,
 	`deleted` timestamp,
+	`node_id` int NOT NULL,
+	`name` text NOT NULL,
+	`path` text NOT NULL,	
+	`synced` timestamp,	
     PRIMARY KEY (`id`)
 );
 
 CREATE TABLE `user` 
 (
 	`id` INT NOT NULL AUTO_INCREMENT,
-	`name` text,
-	`email` text,
-	`password` text,
-	`created` timestamp,
+	`created` timestamp DEFAULT CURRENT_TIMESTAMP,
 	`modified` timestamp,
 	`deleted` timestamp,
+	`name` text,
+	`email` text,
+	`password` text,	
     PRIMARY KEY (`id`)
 );
 
