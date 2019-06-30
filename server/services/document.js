@@ -1,25 +1,25 @@
 const db = require("../../tools/db");
 
-async function create(name, path, node_id) {
+async function create(name, path, connection_id) {
   q = `
     INSERT INTO document 
-    (name, path, node_id)
+    (name, path, connection_id)
     VALUES
-    (:name, :path, :node_id)
+    (:name, :path, :connection_id)
     `;
-  param = { name: name, path: path, node_id: node_id };
+  param = { name: name, path: path, connection_id: connection_id };
   await db.execute(q, param);
 }
-async function update(id, name = null, node_id = null, path = null) {
+async function update(id, name = null, connection_id = null, path = null) {
   q = `
     UPDATE document 
     SET 
     name=:name, 
     path=:path, 
-    node_id=:node_id
+    connection_id=:connection_id
     WHERE id=:id
   `;
-  param = { id: id, name: name, path: path, node_id: node_id };
+  param = { id: id, name: name, path: path, connection_id: connection_id };
   await db.execute(q, param, conn);
   await db.commit();
 }

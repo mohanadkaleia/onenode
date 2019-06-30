@@ -1,11 +1,11 @@
 SET FOREIGN_KEY_CHECKS=0; 
 DROP TABLE IF EXISTS `user`;
 DROP TABLE IF EXISTS `document`;
-DROP TABLE IF EXISTS `node`;
+DROP TABLE IF EXISTS `connection`;
 SET FOREIGN_KEY_CHECKS=1;
 
 
-CREATE TABLE `node` 
+CREATE TABLE `connection` 
 (
 	`id` INT NOT NULL AUTO_INCREMENT,
 	`created` timestamp DEFAULT CURRENT_TIMESTAMP,
@@ -23,7 +23,7 @@ CREATE TABLE `document`
 	`created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
 	`modified` timestamp,
 	`deleted` timestamp,
-	`node_id` int NOT NULL,
+	`connection_id` int NOT NULL,
 	`name` text NOT NULL,
 	`path` text NOT NULL,	
 	`synced` timestamp,	
@@ -42,6 +42,6 @@ CREATE TABLE `user`
     PRIMARY KEY (`id`)
 );
 
-ALTER TABLE `node` ADD CONSTRAINT `user_node` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`);
+ALTER TABLE `connection` ADD CONSTRAINT `user_connection` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`);
 
-ALTER TABLE `document` ADD CONSTRAINT `document_node` FOREIGN KEY (`node_id`) REFERENCES `node` (`id`);
+ALTER TABLE `document` ADD CONSTRAINT `document_connection` FOREIGN KEY (`connection_id`) REFERENCES `connection` (`id`);

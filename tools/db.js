@@ -9,7 +9,7 @@ async function create_connection() {
     user: config.db.connection.user,
     password: config.db.connection.password,
     database: config.db.schema.name,
-    debug: config.env == "development"
+    debug: false && config.env == "development"
   });
 
   connection.config.queryFormat = function(query, values) {
