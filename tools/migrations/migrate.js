@@ -91,4 +91,6 @@ async function apply_migrations() {
   });
 }
 
-apply_migrations();
+// apply_migrations();
+
+exports.apply_migrations = apply_migrations;
