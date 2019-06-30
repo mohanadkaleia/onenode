@@ -24,7 +24,5 @@ async function update(id, name = null, node_id = null, path = null) {
   await db.commit();
 }
 
-create("mohanad", "data/temp", "1");
-
 exports.create = create;
 exports.update = update;
