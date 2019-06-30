@@ -2,7 +2,7 @@ const db = require("../../tools/db");
 
 async function create(name, path, node_id) {
   q = `
-    INSERT INTO file 
+    INSERT INTO document 
     (name, path, node_id)
     VALUES
     (:name, :path, :node_id)
@@ -12,7 +12,7 @@ async function create(name, path, node_id) {
 }
 async function update(id, name = null, node_id = null, path = null) {
   q = `
-    UPDATE file 
+    UPDATE document 
     SET 
     name=:name, 
     path=:path, 
