@@ -1,5 +1,5 @@
 {
-  "evn": "development",
+  "env": "development",
   "node_port": 3000,
   "db": {
     "client": "mysql",

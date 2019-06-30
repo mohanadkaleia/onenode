@@ -8,7 +8,8 @@ async function create_connection() {
     host: config.db.connection.host,
     user: config.db.connection.user,
     password: config.db.connection.password,
-    database: config.db.schema.name
+    database: config.db.schema.name,
+    debug: config.env == "development"
   });
 
   connection.config.queryFormat = function(query, values) {
@@ -30,15 +31,17 @@ async function create_connection() {
 }
 
 async function execute(sql, param = null, conn = null) {
-  if (conn == null) {
+  if (conn === null) {
     conn = await create_connection();
   }
 
   return new Promise((resolve, reject) => {
-    conn.query(sql, param, function(err, result, fields) {
+    conn.query(sql, param, async function(err, result, fields) {
       if (err) {
+        await rollback(conn);
         reject(err);
       }
+      await commit(conn);
       resolve(result);
     });
   });
@@ -53,8 +56,6 @@ async function commit(conn) {
 }
 
 async function rollback(conn) {
-  console.log("rollback");
-
   await conn.rollback();
 }
 

@@ -1,4 +1,4 @@
-let db = require("../../tools/db");
+const db = require("../../tools/db");
 
 async function create(name, path, node_id) {
   q = `
@@ -8,28 +8,23 @@ async function create(name, path, node_id) {
     (:name, :path, :node_id)
     `;
   param = { name: name, path: path, node_id: node_id };
-
-  try {
-    await db.execute(q, param);
-  } catch (err) {
-    console.log(err);
-  }
+  await db.execute(q, param);
 }
 async function update(id, name = null, node_id = null, path = null) {
   q = `
     UPDATE file 
     SET 
-    name=${name}, 
-    path=${path}, 
-    node_id=${node_id}
+    name=:name, 
+    path=:path, 
+    node_id=:node_id
+    WHERE id=:id
   `;
-  await db.execute(q);
+  param = { id: id, name: name, path: path, node_id: node_id };
+  await db.execute(q, param, conn);
+  await db.commit();
 }
-try {
-  create("mohanad", "data/temp", "1");
-} catch (e) {
-  console.log(e);
-}
+
+create("mohanad", "data/temp", "1");
 
 exports.create = create;
 exports.update = update;
