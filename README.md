@@ -41,6 +41,7 @@ node /tools/migrations/wipe_db.js
 
 ```sh
 npm run server
+node server/listeners/watcher.js
 ```
 
 #### Signalling server:
