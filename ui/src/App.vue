@@ -3,8 +3,7 @@
     <div class="container-fluid fill no-padding">
       <div class="row no-gutters fill">
         <div class="col-sm-12 col-md-3 sidebar">
-          <sidebar></sidebar>
-          <a href="http://127.0.0.1:5000">Flask is here</a>
+          <sidebar></sidebar>        
         </div>
         <div class="col-sm-12 col-md-9 file-explorer">
           <explorer></explorer>
@@ -22,7 +21,7 @@
   export default {
     components: { Sidebar },
     // components: { Sidebar, Explorer },
-    name: 'app',
+    name: 'App',
     data () {
       return {
         files: []
